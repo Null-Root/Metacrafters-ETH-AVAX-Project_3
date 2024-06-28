@@ -1,25 +1,35 @@
-# Project
-This is a smart contract to create my own ERC20 token which was WeirdTunaCoin (WTC)
+# WeirdTunaCoin (WTC)
+
+WeirdTunaCoin is an ERC20 token that allows minting by the contract owner, burning by any user, and transferring tokens between addresses.
 
 ## Description
-This smart contract creates my own ERC20 contract wherein mint can only be called by the owner while there is also the burn and send which allows any user to burn tokens and send tokens to another address
+
+This smart contract implements the ERC20 standard to create WeirdTunaCoin (WTC). The key functionalities include:
+- **Minting**: Only the owner can mint new tokens.
+- **Burning**: Any user can burn their tokens.
+- **Transferring**: Users can send tokens to another address.
 
 ## Getting Started
 
-### Installing
+### Installing and Deploying
 
-Run this on gitpod and use truffle to interact
+1. Open [Remix IDE](https://remix.ethereum.org/).
+2. Create a new file and paste the `WeirdTunaCoin` contract code into the file.
+3. Compile the contract.
+4. Deploy the contract.
 
-* Open [Remix IDE](https://remix.ethereum.org/).
-* Create a new file and paste the `WeirdTunaCoin` contract code into the file.
-* Compile and Deploy
+### Interacting with the Contract
 
-### Executing program
-* Compile the contract.
-* Deploy the contract.
+You can interact with the contract using Remix IDE.
 
 ## Help
-For any issues, please create an issue
+
+For any issues, please create/open an issue in the repository.
 
 ## Authors
-Patrick James Dionisio
+
+- Patrick James Dionisio
+
+## License
+
+This project currently has no license
