@@ -25,10 +25,9 @@ contract WeirdTunaCoin is ERC20, Ownable {
         _burn(msg.sender, amount);
     }
 
-    function send(address receiver, uint256 amount) public returns (bool) {
+    function transfer(address receiver, uint256 amount) public override returns (bool) {
         require(receiver != address(0), "Receiver address cannot be the zero address");
         _transfer(msg.sender, receiver, amount);
         return true;
-
     }
 }
